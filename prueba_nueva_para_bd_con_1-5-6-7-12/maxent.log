@@ -1,0 +1,259 @@
+Tue Feb 08 20:27:24 ART 2022
+MaxEnt version 3.4.4
+Checking header of C:\Users\agust\Documents\Tesis\maxent\wc21_10m_bio_1.asc
+Checking header of C:\Users\agust\Documents\Tesis\maxent\wc21_10m_bio_12.asc
+Checking header of C:\Users\agust\Documents\Tesis\maxent\wc21_10m_bio_5.asc
+Checking header of C:\Users\agust\Documents\Tesis\maxent\wc21_10m_bio_6.asc
+Checking header of C:\Users\agust\Documents\Tesis\maxent\wc21_10m_bio_7.asc
+Reading samples from bd.csv
+Read samples: max memory 536870912, total allocated 145752064, free 75137312, used 70614752, increment -43749080
+Extractor: max memory 536870912, total allocated 145752064, free 74727624, used 71024440, increment 409688
+Extracting random background and sample data
+808053 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\agust\Documents\Tesis\maxent\prueba_nueva_con-1-5-6-7-12 samplesfile=C:\Users\agust\Documents\Tesis\maxent\bd.csv environmentallayers=C:\Users\agust\Documents\Tesis\maxent noremoveduplicates randomtestpoints=25 noproduct nohinge noautofeature appendtoresultsfile "applythresholdrule=maximum training sensitivity plus specificity" -N wc21_10m_bio_10 -N wc21_10m_bio_11 -N wc21_10m_bio_13 -N wc21_10m_bio_14 -N wc21_10m_bio_15 -N wc21_10m_bio_16 -N wc21_10m_bio_17 -N wc21_10m_bio_18 -N wc21_10m_bio_19 -N wc21_10m_bio_2 -N wc21_10m_bio_3 -N wc21_10m_bio_4 -N wc21_10m_bio_8 -N wc21_10m_bio_9
+Species: Blaptica_dubia
+Layers: wc21_10m_bio_1 wc21_10m_bio_12 wc21_10m_bio_5 wc21_10m_bio_6 wc21_10m_bio_7
+Layertypes: Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\agust\Documents\Tesis\maxent\prueba_nueva_con-1-5-6-7-12
+samplesfile: C:\Users\agust\Documents\Tesis\maxent\bd.csv
+environmentallayers: C:\Users\agust\Documents\Tesis\maxent
+removeduplicates: false
+randomtestpoints: 25
+product: false
+hinge: false
+autofeature: false
+appendtoresultsfile: true
+applythresholdrule: maximum training sensitivity plus specificity
+
+getSamples: max memory 536870912, total allocated 145752064, free 67401960, used 78350104, increment 7325664
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 66836920, used 78915144, increment 565040
+Blaptica_dubia: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 66756824, used 78995240, increment 80096
+linearPredictor: max memory 536870912, total allocated 145752064, free 66676728, used 79075336, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 66676728, used 79075336, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 66676728, used 79075336, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+260: time = 0,131000 loss = 6,895096 testLoss 5,785217
+Resulting gain: 2.31624369814522
+Projecting...
+Writing file C:\Users\agust\Documents\Tesis\maxent\prueba_nueva_con-1-5-6-7-12\Blaptica_dubia.asc
+Time since start: 3.458
+Writing C:\Users\agust\Documents\Tesis\maxent\prueba_nueva_con-1-5-6-7-12\plots\Blaptica_dubia.png
+Writing file C:\Users\agust\Documents\Tesis\maxent\prueba_nueva_con-1-5-6-7-12\Blaptica_dubia_thresholded.asc
+Time since start: 4.908
+Blaptica_dubia response curves
+Response curve: only wc21_10m_bio_1
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 76824784, used 68927280, increment -10148056
+Blaptica_dubia wc21_10m_bio_1: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 76824784, used 68927280, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 76824784, used 68927280, increment 0
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 76824784, used 68927280, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 76824784, used 68927280, increment 0
+Initial loss: 9.211339872309265
+140: time = 0,063000 loss = 8,088727
+Resulting gain: 1.1226133104965186
+Blaptica_dubia response curves
+Response curve: only wc21_10m_bio_12
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 72106384, used 73645680, increment 4718400
+Blaptica_dubia wc21_10m_bio_12: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 72106384, used 73645680, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 72026288, used 73725776, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 72026288, used 73725776, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 72026288, used 73725776, increment 0
+Initial loss: 9.211339872309265
+140: time = 0,068000 loss = 8,444954
+Resulting gain: 0.7663859145494758
+Blaptica_dubia response curves
+Response curve: only wc21_10m_bio_5
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 67384824, used 78367240, increment 4641464
+Blaptica_dubia wc21_10m_bio_5: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 67384824, used 78367240, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 66860536, used 78891528, increment 524288
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 66855232, used 78896832, increment 5304
+Sequential: max memory 536870912, total allocated 145752064, free 66855232, used 78896832, increment 0
+Initial loss: 9.211339872309265
+140: time = 0,063000 loss = 8,801071
+Resulting gain: 0.4102689989226569
+Blaptica_dubia response curves
+Response curve: only wc21_10m_bio_6
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 84849344, used 60902720, increment -17994112
+Blaptica_dubia wc21_10m_bio_6: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 84849344, used 60902720, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 84849344, used 60902720, increment 0
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 84846696, used 60905368, increment 2648
+Sequential: max memory 536870912, total allocated 145752064, free 84844040, used 60908024, increment 2656
+Initial loss: 9.211339872309265
+100: time = 0,047000 loss = 7,611018
+Resulting gain: 1.6003218068735476
+Blaptica_dubia response curves
+Response curve: only wc21_10m_bio_7
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 80130720, used 65621344, increment 4713320
+Blaptica_dubia wc21_10m_bio_7: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 80130720, used 65621344, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 80130720, used 65621344, increment 0
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 80130720, used 65621344, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 80130720, used 65621344, increment 0
+Initial loss: 9.211339872309265
+160: time = 0,063000 loss = 8,397401
+Resulting gain: 0.8139391624067365
+Blaptica_dubia response curves
+Jackknife: leave wc21_10m_bio_1 out
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 57324584, used 88427480, increment 22806136
+Blaptica_dubia wc21_10m_bio_1: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 57244488, used 88507576, increment 80096
+linearPredictor: max memory 536870912, total allocated 145752064, free 57164392, used 88587672, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 57164392, used 88587672, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 57164392, used 88587672, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+220: time = 0,078000 loss = 7,002008 testLoss 6,118798
+Jackknife: leave wc21_10m_bio_12 out
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 54948512, used 90803552, increment 2215880
+Blaptica_dubia wc21_10m_bio_12: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 54948512, used 90803552, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 54868416, used 90883648, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 54865680, used 90886384, increment 2736
+Sequential: max memory 536870912, total allocated 145752064, free 54863024, used 90889040, increment 2656
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+240: time = 0,110000 loss = 7,005700 testLoss 6,098892
+Jackknife: leave wc21_10m_bio_5 out
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 52657024, used 93095040, increment 2206000
+Blaptica_dubia wc21_10m_bio_5: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 52571600, used 93180464, increment 85424
+linearPredictor: max memory 536870912, total allocated 145752064, free 52491504, used 93260560, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 52488792, used 93263272, increment 2712
+Sequential: max memory 536870912, total allocated 145752064, free 52488792, used 93263272, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+Time since start: 5.953
+240: time = 0,103000 loss = 7,008308 testLoss 5,989297
+Jackknife: leave wc21_10m_bio_6 out
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 50225792, used 95526272, increment 2263000
+Blaptica_dubia wc21_10m_bio_6: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 50137744, used 95614320, increment 88048
+linearPredictor: max memory 536870912, total allocated 145752064, free 50057648, used 95694416, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 50057648, used 95694416, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 50052088, used 95699976, increment 5560
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+260: time = 0,109000 loss = 7,169565 testLoss 6,017734
+Jackknife: leave wc21_10m_bio_7 out
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 47564168, used 98187896, increment 2487920
+Blaptica_dubia wc21_10m_bio_7: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 47478760, used 98273304, increment 85408
+linearPredictor: max memory 536870912, total allocated 145752064, free 47398664, used 98353400, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 47398664, used 98353400, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 47398664, used 98353400, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+220: time = 0,095000 loss = 6,990031 testLoss 5,952909
+Jackknife: only wc21_10m_bio_1
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 45657720, used 100094344, increment 1740944
+Blaptica_dubia wc21_10m_bio_1: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 45577624, used 100174440, increment 80096
+linearPredictor: max memory 536870912, total allocated 145752064, free 45497528, used 100254536, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 45491992, used 100260072, increment 5536
+Sequential: max memory 536870912, total allocated 145752064, free 45491992, used 100260072, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+140: time = 0,065000 loss = 8,088727 testLoss 7,511782
+Res.gain: 1.1226133104965186
+Jackknife: only wc21_10m_bio_12
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 44147560, used 101604504, increment 1344432
+Blaptica_dubia wc21_10m_bio_12: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 44147560, used 101604504, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 44067464, used 101684600, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 44064728, used 101687336, increment 2736
+Sequential: max memory 536870912, total allocated 145752064, free 44064728, used 101687336, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+140: time = 0,059000 loss = 8,444954 testLoss 7,856786
+Res.gain: 0.7663859145494758
+Jackknife: only wc21_10m_bio_5
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 42911856, used 102840208, increment 1152872
+Blaptica_dubia wc21_10m_bio_5: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 42911856, used 102840208, increment 0
+linearPredictor: max memory 536870912, total allocated 145752064, free 42829064, used 102923000, increment 82792
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 42826408, used 102925656, increment 2656
+Sequential: max memory 536870912, total allocated 145752064, free 42826408, used 102925656, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+140: time = 0,063000 loss = 8,801071 testLoss 8,605659
+Res.gain: 0.4102689989226569
+Jackknife: only wc21_10m_bio_6
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 41670224, used 104081840, increment 1156184
+Blaptica_dubia wc21_10m_bio_6: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 41590128, used 104161936, increment 80096
+linearPredictor: max memory 536870912, total allocated 145752064, free 41510032, used 104242032, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 41510032, used 104242032, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 41510032, used 104242032, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+100: time = 0,048000 loss = 7,611018 testLoss 7,282145
+Res.gain: 1.6003218068735476
+Jackknife: only wc21_10m_bio_7
+Making features
+makeFeatures: max memory 536870912, total allocated 145752064, free 40467120, used 105284944, increment 1042912
+Blaptica_dubia wc21_10m_bio_7: 
+Regularization values: linear/quadratic/product: 0.800, categorical: 0.500, threshold: 1.900, hinge: 0.500
+10 samples
+Density: max memory 536870912, total allocated 145752064, free 40387024, used 105365040, increment 80096
+linearPredictor: max memory 536870912, total allocated 145752064, free 40306928, used 105445136, increment 80096
+FeaturedSpace: max memory 536870912, total allocated 145752064, free 40306928, used 105445136, increment 0
+Sequential: max memory 536870912, total allocated 145752064, free 40306928, used 105445136, increment 0
+Initial loss: 9.211339872309265
+Initial test loss: 9.211339872309265
+160: time = 0,051000 loss = 8,397401 testLoss 7,909259
+Res.gain: 0.8139391624067365
+Ending
